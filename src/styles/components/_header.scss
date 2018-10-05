@@ -1,0 +1,18 @@
+.header{
+  min-width: 0em;
+  display: flex;
+  align-items: center;
+  height: 3.2rem;
+}
+
+@media (min-width: 650px){
+  .header{
+    min-width: 25em;
+  }
+}
+
+.header span{
+  font-size: 1.2rem;
+  color: rgb(141, 141, 141)
+}
+

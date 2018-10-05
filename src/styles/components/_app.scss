@@ -1,0 +1,380 @@
+.app{
+  min-height: 83vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column
+}
+
+.main{
+  background: linear-gradient(45deg, #509f71 0%, rgba(80, 159, 113, 0) 70%), linear-gradient(135deg, #323ca9 10%, rgba(50, 60, 169, 0) 80%), linear-gradient(225deg, #af70ab 10%, rgba(162, 87, 157, 0) 80%), linear-gradient(315deg, #32b344 100%, rgba(50, 179, 68, 0) 70%);
+}
+
+.app h3{
+  margin: 0;
+  margin-bottom: 5px;
+  font-weight: 800;
+  letter-spacing: -.05em;
+  opacity: .95;
+  color: white;
+  font-size: 70px;
+  text-align: center
+}
+.app p{
+  margin: 0;
+  color: white;
+  font-size: 21px;
+  opacity: .7;
+  font-weight: 100 !important;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+.app__text{
+  margin-top: 5.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+
+.app__text-dashboard{
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 800;
+  letter-spacing: -.03em;
+  opacity: .95;
+  color: white;
+  transition: all 2s ease-in-out
+}
+.app__text-dashboard h5{
+  margin: 5px 0px
+}
+.app__text-dashboard h5 span{
+  font-weight: 100;
+  font-size: 20px;
+  padding-right: 5px;
+
+}
+
+.app__text-dashboard small{
+  margin-top: 0;
+  color: white;
+  font-size: 12px;
+  opacity: .7;
+  letter-spacing: 0.1em;
+  font-weight: 100 !important;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+
+.webA{
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+  font-weight: 100;
+  padding-right: 2em;
+  padding-bottom: 10px;
+  text-decoration: underline;
+  opacity: .8;
+}
+
+.app__text button{
+  display: inline-block;
+  flex-grow: 0;
+  padding: 7px 2em;
+  background: none;
+  border: 1px solid #d5d5d5;
+  border-radius: 6px;
+  color:  white;
+  margin: 1em 0em;
+  font-weight: 100px;
+  text-align: center;
+  letter-spacing: .05em;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  transition: all 300ms ease-out;
+}
+.app__text button:hover{
+  color: #525252;
+  background: #d5d5d5;
+}
+.twitter{
+  background: #1b95e0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  height: 24px;
+  width: 38px;
+  transition: all 300ms ease-in-out
+}
+.google{
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  height: 24px;
+  padding: 0;
+  transition: all 300ms ease-in-out
+}
+.face{
+  background: #1578b6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  height: 24px;
+  width: 38px;
+  transition: all 300ms ease-in-out
+}
+.twitter:hover{
+  background: #1578b6
+}
+
+.face:hover{
+  background: #115f8f
+}
+.app__text-icons{
+  display: flex
+}
+.app__text-icons .fab{
+  color:  white;
+  font-size: .9rem;
+  padding-right: 5px
+}
+
+.app__text-icons div{
+  padding: 0px 15px;
+  margin: 0px 10px;
+  box-shadow:  2px 4px 3px 0px #1414141a;
+}
+
+.app__text-icons .fa-google-plus-g{
+  color: #db4437
+}
+.app__text-icons span{
+  color: white;
+  font-size: 12px;
+  font-weight: 100
+}
+.app__text .version{
+  color: white;
+  font-size: 15px;
+  font-weight: 100;
+  padding: 15px 0px;
+  letter-spacing: .2rem;
+  text-align: center;
+  line-height: 25px
+}
+.app__text .version b{
+  color: #f9774c;
+  font-weight: 800;
+  letter-spacing: normal;
+}
+
+
+.app__img{
+  display: flex;
+  align-items: center;
+  background: #dbe2db4d;
+  width: 195px;
+  height: 150px;
+  margin-top: 3rem;
+  padding: 0px 1.6rem;
+  border-radius: 4px;
+}
+
+@media (min-width: 650px){
+  .app__img{
+    width: 320px;
+  }
+
+}
+.image{
+  height: 100px;
+  width: auto;
+  box-shadow:  2px 4px 3px 0px #1414141a;
+}
+
+.app__img span{
+  color: white;
+  font-size: 15px;
+  font-weight: 100;
+  padding-left: 10px
+}
+
+.web{
+display: flex;
+justify-content: flex-end;
+}
+
+
+.web > span{
+  color: white;
+  font-size: 13px;
+  font-weight: 100;
+  padding-right: 2em;
+  padding-bottom: 10px;
+  text-decoration: underline;
+  opacity: .8;
+}
+
+.fa, .fas {
+  font-weight: 900;
+  font-size: 15px;
+  color: #e9e9e9;
+  padding: 0px 4px;
+}
+
+.form-inputs form{
+  display: flex;
+  flex-direction: column;
+  padding: 1.5em 1em;
+}
+
+input, textarea, .m {
+  margin: 10px 0px;
+  border: none;
+  font-size:14px;
+  width: 25em;
+  border-bottom: 1px solid #b6b6b667;
+  padding: 14px 10px;
+  background: none;
+  color: #fff
+}
+
+// .single{
+//   color: #444
+// }
+ form > input{
+   margin: 10px 0px;
+   border: none;
+   font-size:14px;
+   width: 25em;
+   border-bottom: 1px solid #b6b6b667;
+   padding: 14px 10px;
+   background: none;
+   color: #444
+ }
+
+  .form-inputs{
+   background: white;
+   border-radius: 3px;
+    box-shadow: 10px 10px 30px 1px #4e4c4c93;
+    padding-top: 3.5em;
+    padding-bottom: 1.5em
+ }
+ .app-login{
+  min-height: 83vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login{
+  display: flex;
+  justify-content: center
+}
+.title em{
+  font-size: 10px;
+  padding-bottom: 3em;
+  color: rgb(255, 255, 255);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+
+}
+.title h3{
+  margin-bottom: 2px;
+  color: rgb(255, 255, 255);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(30deg, #509f71 0%, rgba(80, 159, 113, 0) 70%),  linear-gradient(5deg, #323ca9 10%, rgba(50, 60, 169, 0) 80%)  , linear-gradient(225deg, #af70ab 100%, rgba(162, 87, 157, 0) 30%),linear-gradient(315deg, #32b344 300%, rgba(50, 179, 68, 0) 150%) ;
+  padding-left:3em;
+  padding-right:3em;
+  margin-top: -20px;
+  position: absolute;
+  border-radius: 4px;
+  box-shadow: 1px -1px 25px -2px #4e4c4c57;
+}
+.b{
+  display: flex;
+  justify-content: flex-end
+}
+.login_form button{
+  display: inline-block;
+  box-shadow: 5px 5px 25px -2px #4e4c4c57;
+  flex-grow: 0;
+  color: rgb(251, 251, 251);
+  padding: 7px 1em;
+  background: linear-gradient(120deg, #509f71 0%, rgba(80, 159, 113, 0) 200%),  linear-gradient(5deg, #323ca9 10%, rgba(50, 60, 169, 0) 80%)  , linear-gradient(225deg, #af70ab 100%, rgba(162, 87, 157, 0) 30%),linear-gradient(315deg, #32b344 300%, rgba(50, 179, 68, 0) 150%) ;
+  border-radius: 6px;
+  border: none;
+  margin: 1em 0em;
+  font-weight: 100px;
+  font-size: 20px;
+  width: 5em;
+  text-align: center;
+  letter-spacing: .05em;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  transition: all 300ms ease-out;
+}
+
+.login_form button a{
+  color: #fff
+}
+
+.sign-up{
+  display: flex;
+  justify-content: center
+}
+
+.sign-up p{
+  margin: 0px;
+  color: #444
+}
+.sign-up em{
+  font-size: 10px;
+  opacity: .7;
+  letter-spacing: 0.1em;
+  font-weight: 100 !important;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.sign-up span{
+  font-size: 12px;
+  padding-left: 10px;
+  color: rgb(5, 105, 67)
+}
+.sign-up span:hover{
+  opacity: 0.5
+}
+  .login_form button:hover{
+    color: #525252;
+    background: #d5d5d5;
+  }
+
+  .page-notFound{
+    display: flex;
+    justify-content: center;
+    align-items: center
+  }
+
+  .page-notFound h1{
+    color: #fff;
+    font-weight: 200
+  }
+.mainForm form{
+  display: flex;
+  flex-direction: column
+}
+
+.addExpense{
+  display: flex;
+  flex-direction: column
+}
