@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import ExpensesList from './ExpensesList'
 import ExpenseListFilters from './ExpenseListFilters'
+import ExpensesSummary from './ExpensesSummary'
 
 const AppDashBoard = () => (
 
@@ -14,6 +15,7 @@ const AppDashBoard = () => (
           </small>
           <ExpenseListFilters />
           <Link to='/add'><button>add</button></Link>
+          <ExpensesSummary />
               <ExpensesList />
     </div>
   )
