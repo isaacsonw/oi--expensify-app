@@ -3,8 +3,6 @@ import slack from '../images/slack.png'
 import { Link } from 'react-router-dom'
 
 
-
-
 const LandingPage = () => (
 
       <div className="app__text">
@@ -34,8 +32,9 @@ const LandingPage = () => (
           </div>
           <br/>
         </div>
+
         <span className="version">
-          Currently v1.0.0 * Author: OI Design <br/> [ <b>OI Hub -</b>  creativity<b>+</b> ]
+          Currently v0.0.1* Author: Oi Design <br/> [ <b>OI Hub -</b>  creativity<b>+</b> ]
         </span>
 
         <div>
@@ -46,7 +45,6 @@ const LandingPage = () => (
             </span>
           </div>
         </div>
-
 
   </div>
 )

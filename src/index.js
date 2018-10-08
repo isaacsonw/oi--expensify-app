@@ -9,6 +9,7 @@ import { Provider } from 'react-redux'
 import store from './AppStateManagement/store'
 import AppRouter from './routers/AppRouter'
 
+
 const renderApp = (
   <Provider store={store}>
     <AppRouter />
