@@ -8,8 +8,8 @@
     "build:dev": "webpack",
     "build:prod": "webpack -p --env production",
     "test": "jest",
-    "start":"node server/server.js",
-    "heroku-postbuild":"yarn build:prod"
+    "start": "node server/server.js",
+    "heroku-postbuild": "yarn build:prod"
   },
   "author": "Isaac",
   "license": "ISC",
@@ -26,6 +26,7 @@
     "moment": "^2.22.2",
     "node-sass": "^4.9.3",
     "normalize.css": "^8.0.0",
+    "numeral": "^2.0.6",
     "react": "^16.4.2",
     "react-addons-shallow-compare": "^15.6.2",
     "react-dates": "^18.1.0",
@@ -41,15 +42,14 @@
     "validator": "^10.5.0",
     "webpack": "^4.16.5",
     "webpack-cli": "^3.1.0"
-
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "file-loader": "^1.1.11",
-    "url-loader": "^1.1.0",
     "jest": "^23.6.0",
+    "url-loader": "^1.1.0",
     "webpack-dev-server": "^3.1.5"
   }
 }
