@@ -4,10 +4,9 @@ import 'normalize.css/normalize.css'
 import './styles/style.scss'
 import { Provider } from 'react-redux'
 
-
-
 import store from './AppStateManagement/store'
 import AppRouter from './routers/AppRouter'
+import './firebase/firebase'
 
 
 const renderApp = (
